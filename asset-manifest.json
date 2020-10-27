@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/moviebank/static/css/main.6e276803.chunk.css",
+    "main.js": "/moviebank/static/js/main.341e9254.chunk.js",
+    "main.js.map": "/moviebank/static/js/main.341e9254.chunk.js.map",
+    "runtime-main.js": "/moviebank/static/js/runtime-main.605e0c0a.js",
+    "runtime-main.js.map": "/moviebank/static/js/runtime-main.605e0c0a.js.map",
+    "static/css/2.da1805c8.chunk.css": "/moviebank/static/css/2.da1805c8.chunk.css",
+    "static/js/2.6fc15dc1.chunk.js": "/moviebank/static/js/2.6fc15dc1.chunk.js",
+    "static/js/2.6fc15dc1.chunk.js.map": "/moviebank/static/js/2.6fc15dc1.chunk.js.map",
+    "index.html": "/moviebank/index.html",
+    "precache-manifest.0be05e9f0d415553c2656af8db5e79f7.js": "/moviebank/precache-manifest.0be05e9f0d415553c2656af8db5e79f7.js",
+    "service-worker.js": "/moviebank/service-worker.js",
+    "static/css/2.da1805c8.chunk.css.map": "/moviebank/static/css/2.da1805c8.chunk.css.map",
+    "static/css/main.6e276803.chunk.css.map": "/moviebank/static/css/main.6e276803.chunk.css.map",
+    "static/js/2.6fc15dc1.chunk.js.LICENSE.txt": "/moviebank/static/js/2.6fc15dc1.chunk.js.LICENSE.txt",
+    "static/media/back-button.png": "/moviebank/static/media/back-button.4b8a5cad.png",
+    "static/media/font-awesome.min.css": "/moviebank/static/media/fontawesome-webfont.fee66e71.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.605e0c0a.js",
+    "static/css/2.da1805c8.chunk.css",
+    "static/js/2.6fc15dc1.chunk.js",
+    "static/css/main.6e276803.chunk.css",
+    "static/js/main.341e9254.chunk.js"
+  ]
+}
