@@ -1,0 +1,17 @@
+@import '../../Assets/scss/custom.scss';
+
+.set-bg {
+    background-color: $bgColor;
+    height: 130vh;
+    .item-title{
+        font-size: 20px;
+        color: $whitePallete;
+        font-family: $titleFont;
+        margin-left: 6px;
+      }
+    .pagination {
+        padding-top: 24px;
+        padding-bottom: 34px;
+        justify-content: center;
+    }
+}

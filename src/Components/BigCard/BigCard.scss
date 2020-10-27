@@ -1,0 +1,96 @@
+@import '../../Assets/scss/custom.scss';
+
+.detail-content{
+   background-color: $bgColor;
+   color: antiquewhite;
+   padding-top: 50px;
+   padding-bottom: 50px;
+   .btn-back-d{
+        img{
+            width: 44px;
+            height: auto;
+            cursor: pointer;
+        }
+  }
+  .content-main{
+    margin-top: 32px;
+    .content-img{
+        img{
+            max-width: none;
+        }
+    }
+    .content-type{
+        font-size: 20px;
+        font-family: fangsong;
+        font-weight: 600;
+        color: darkgray;
+        p{
+            margin-bottom: 0px;
+        }
+    }
+    .content-title{
+        font-size: 40px;
+        font-family: $titleFont;
+        font-weight: bold;
+    }
+    .content-runtime{
+        margin-bottom: 14px;
+        display: flex;
+        .runtime{
+            font-size: 12px;
+            font-family: $plotFont;
+            font-weight: 500;
+            background-color: darkslategrey;
+            width: 52px;
+            border-radius: 6px;
+            padding: 5px;
+            height: 28px;
+            margin-right: 14px;
+        }
+        .metascore {
+            font-size: 12px;
+            font-family: $plotFont;
+            font-weight: 500;
+            background-color: dimgrey;
+            padding: 5px;
+            height: 28px;
+            width: 95px;
+            border-radius: 6px;
+        }
+    }
+    .content-rating{
+        display: inline-flex;
+        font-size: 20px;
+        font-family: $titleFont;
+        .rating-item{
+            margin-right: 10px;
+            color: #46d369;
+        }
+        .rating-vote{
+            margin-right: 10px;
+            color: burlywood;
+        }
+    }
+    .content-plot{
+        font-size: 20px;
+        font-family: $plotFont;
+    }
+    .content-sub-item{
+        border-top: 0.5px solid darkslategrey;
+        .sub-title{
+            font-size: 24px;
+            font-family: emoji;
+            font-weight: 700;
+            padding-top: 16px;
+            margin-bottom: 10px;
+        }
+        .sub-content{
+            font-size: 16px;
+            font-family: $plotFont;
+            p{
+                margin-bottom: 0.5px;
+            }
+        }
+    }
+  }
+}

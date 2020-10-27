@@ -1,0 +1,72 @@
+@import '../../Assets/scss/custom.scss';
+
+.container {
+    text-align: left;
+  }
+  .item {
+    text-align: left;
+    width: 18%;
+    padding: 8px;
+    display: inline-block;
+    vertical-align: top;
+    padding-bottom: 18px;
+    padding-top: 18px;
+    margin-left: 14px;
+    .card-item-content{
+      .card-item-content-image {
+        position: relative;
+        background-color: #ccc;
+        border-radius: 8px;
+        overflow: hidden;
+        height: 0;
+        padding-bottom: 124%;
+        -webkit-box-shadow: 0 3px 6px 0 rgba(51, 51, 51, 0.2);
+        box-shadow: 0 3px 6px 0 rgba(51, 51, 51, 0.2);
+    
+        .picture-tag {
+          display: block;
+          margin: auto;
+          // max-width: 100%;
+          img {
+            max-width: none;
+            width: 100%;
+            margin-right: auto;
+          }
+        }
+      }
+    
+      .titles {
+        color: $whitePallete;
+        margin-top: 10px;
+        font-weight: 600;
+        display: -webkit-box;
+        white-space: normal;
+        overflow: hidden;
+        max-height: 36.4px;
+        font-size: 14px;
+        line-height: 1.3;
+        text-overflow: ellipsis;
+      }
+    
+      .detail {
+        white-space: normal;
+        overflow: hidden;
+        max-height: 28.8px;
+        font-size: 12px;
+        line-height: 1.2;
+        text-overflow: ellipsis;
+    
+        .subtitle {
+          text-align: left;
+          white-space: normal;
+          overflow: hidden;
+          max-height: 28.8px;
+          font-size: 12px;
+          line-height: 1.2;
+          text-overflow: ellipsis;
+          color: #999;
+        }
+      }
+    }
+  }
+  

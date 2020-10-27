@@ -1,0 +1,14 @@
+@import '../../Assets/scss/custom.scss';
+
+.loader-bg{
+    background-color: $bgColor;
+    height: 100vh;
+    .loader-wrap {
+        width: 4rem;
+        height: 4rem;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin: -25px 0 0 -25px;
+    }
+}

@@ -1,0 +1,36 @@
+
+  @import '~bootstrap/scss/bootstrap';
+
+  $bluePallete: #007bc1;
+  $darkBluePallete: #004a75;
+  $orangePallete: #ff8000;
+  $darkOrangePallete: #cc6600;
+  $smokeGrayPallete: #e5e5e5;
+  $whitePallete: #f5f5f5;
+  $bgColor: #141414;
+  $titleFont: fantasy;
+  $plotFont: fangsong;
+
+  body {
+    margin: 0;
+    font-size: 14px;
+    word-break: break-word;
+    font-family: -apple-system, BlinkMacSystemFont, proxima_nova, arial, helvetica,
+      sans-serif;
+    font-feature-settings: 'kern', 'liga', 'tnum';
+    -webkit-font-smoothing: antialiased;
+    color: #1e1e1e;
+    line-height: 1.5;
+    min-width: 1024px;
+    background-color: #f5f5f5;
+  }
+
+  a {
+    color: #e60e35;
+    text-decoration: none;
+    transition: all 0.2s linear;
+  }
+
+  ul {
+      list-style-type: none;
+  }
