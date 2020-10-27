@@ -1,6 +1,6 @@
 import React from 'react';
 import { Provider } from 'react-redux';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-dom';
 import './App.css';
 import Homepage from './Pages/Homepage';
 import MovieDetailPage from './Pages/MovieDetailPage';
@@ -15,6 +15,9 @@ function App() {
     <Provider store={store}>
       <Router>
         <Switch>
+          <Route exact path='/moviebank'>
+            <Redirect to='/' />
+          </Route>
           <Route path='/' exact component={Homepage} />
           <Route path='/movie/:id' exact component={MovieDetailPage} />
           <Route
